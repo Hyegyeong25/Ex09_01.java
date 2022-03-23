@@ -5,7 +5,8 @@ public class Ex03_07 {
 
         a = (int)123.45f;
         b = (float)200;
-
+        float c = 10.08f;
+        System.out.printf("%f\n", c);
         System.out.printf("a의 값 ==> %d \n", a);
         System.out.printf("b의 값 ==> %f \n", b);
     }
