@@ -13,11 +13,11 @@ public class Ex220520_3 {
 
         System.out.print("출력 문자열 => ");
         if(!str.startsWith("("))
-            System.out.printf("(");
+            System.out.print("(");
         for (int i = 0; i < str.length(); i++) {
             System.out.printf("%c", str.charAt(i));
         }
         if(!str.endsWith(")"))
-            System.out.printf(")");
+            System.out.print(")");
     }
 }
