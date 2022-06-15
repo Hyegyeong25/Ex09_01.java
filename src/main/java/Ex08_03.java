@@ -7,6 +7,10 @@ public class Ex08_03 {
         size = count * Integer.BYTES; //int 타입은 4바이트 크기를 가짐
 
         System.out.println("int 크기 ㅣ "+Integer.BYTES);
+        System.out.println("Long 크기 ㅣ "+Long.BYTES);
+        System.out.println("Short 크기 ㅣ "+Short.BYTES);
+        System.out.println("Double 크기 ㅣ "+Double.BYTES);
+        System.out.println("Byte 크기 ㅣ "+Byte.BYTES);
         System.out.println("배열(count) 크기 ㅣ "+count);
         System.out.println("데이터(size) 크기 ㅣ "+size);
 
